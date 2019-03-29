@@ -14,7 +14,7 @@ $ npm i mars-mta --save
 ```
 ```JavaScript
 // main.js
-import Mars from '...'
+import Mars from 'mars-mta'
   Vue.use(Mars, {
     open: true, // 开关,若为false,则不会发出上报
     config: {
