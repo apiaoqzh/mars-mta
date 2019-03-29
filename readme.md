@@ -9,7 +9,9 @@
 
 ## 安装方法
 ### 全局安装
-
+```bash
+$ npm i mars-mta --save
+```
 ```JavaScript
 // main.js
 import Mars from '...'
