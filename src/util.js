@@ -43,6 +43,7 @@ const launch = function (options) {
       break
     default: options.event !== '' && MtaH5.clickStat(options.event, options.data)
   }
+  console.log(`MTA lauch: event_type=${options.type}${options.type === 'click' ? ', event_id=' + options.event : ''}`, { data: options.data })
 }
 export {
   initMars,
